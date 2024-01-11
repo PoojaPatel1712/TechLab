@@ -1,0 +1,9 @@
+if __name__ == '__main__':
+    n = int(input())
+    
+    #number should be between 1 to 20
+    if n >= 1 and n <=20:
+        
+        #lets simply use for loop
+        for element in range(0,n,1):
+            print(element*element)
